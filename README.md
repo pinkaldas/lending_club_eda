@@ -1,52 +1,33 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending club case study
+> This project is based on risk analytics where organizations have to make decisions for loan applications based on applicant's profile.
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The project help organizations to decide whether applicants will repay loan or not based on different driving factors of the applicants. The organization can utilise this knowledge for its portfolio and risk assessment.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Applicants having high experience tend to take most of the loans. There is slightly higher tendency of defaulting the loan for these applicants since they are also getting loan for higher amount than others. 
+- Most of the loan applications are for debt_consolidation purpose, but applicants with high income tend to take loan for home_improvement and small_business purposes. As a result, these applicants have higher tendency of defaulting the loan.
+- Applicants having small_business tend to default the loan.
+- Loan applications for Mortgage have high probability to get Charged-Off.
+- High loan amount have been granted for 60 months, but these applications tend to be defaulted.
+- Applicants applying for higher loan amount needs to be verified properly before approving loan.
+- Loan applications from state CA have high chance of defaulting loan.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- pandas
+- numpy
+- seaborn
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@pinkaldas] - feel free to contact me!
